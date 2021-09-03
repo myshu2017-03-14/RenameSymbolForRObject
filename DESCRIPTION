@@ -1,0 +1,17 @@
+Package: RenameRObject
+Type: Package
+Title: A tool for rename gene symbols of a R object accroding to a reference
+Version: 0.1.0
+Author: Myshu
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: A tool for dealwith rename gene symbols
+    1. rename gene symbols for a Seurat object
+    2. rename gene symbols for a matrix object
+    3. rename gene symbols for a CellDataSet object (in monocle package)
+    4. rename gene symbols for a tree (newick format). Edit symbol including ":".
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Depends:
+  Seurat
+RoxygenNote: 7.1.1
