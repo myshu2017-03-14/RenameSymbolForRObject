@@ -1,8 +1,7 @@
-ref <- read.csv("test_data/reference.gene.xls", sep="\t", header=1, check.names=F)
-newnames <- gsub("_","-", ref$gene_symbol)
-ref_data <- data.frame("gene_symbol"=ref$gene_symbol, "fake_gene_symbol"=newnames)
-
 library(RenameRObject)
+
+# 导入reference
+ref_data <- LoadReference("test_data/reference.gene.xls")
 
 # 测试list
 gene_list <- read.table("test_data/marker_gene.xls", header = T)

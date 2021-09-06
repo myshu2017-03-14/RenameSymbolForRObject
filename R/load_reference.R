@@ -7,9 +7,10 @@
 #' @export
 #'
 #' @examples
-#' LoadReference("reference.gene.xls")
+#' ref_data <- LoadReference(reference.gene.xls)
 LoadReference <- function(reference.gene.xls){
-  ref <- read.csv("test_data/reference.gene.xls", sep="\t", header=1, check.names=F)
+  ref <- read.csv(reference.gene.xls, sep="\t", header=1, check.names=F)
   newnames <- gsub("_","-", ref$gene_symbol)
   ref_data <- data.frame("gene_symbol"=ref$gene_symbol, "fake_gene_symbol"=newnames)
+  return(ref_data)
 }

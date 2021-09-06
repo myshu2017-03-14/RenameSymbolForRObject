@@ -17,5 +17,5 @@ ref_data a data frame consists of two columns ["fake_gene_symbol", "gene_symbol"
 LoadReference
 }
 \examples{
-LoadReference("reference.gene.xls")
+ref_data <- LoadReference(reference.gene.xls)
 }
