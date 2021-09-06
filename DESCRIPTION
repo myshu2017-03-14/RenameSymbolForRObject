@@ -15,3 +15,6 @@ LazyData: true
 Depends:
   Seurat
 RoxygenNote: 7.1.1
+Collate: 
+    'rename_list.R'
+    'rename_s4.R'
