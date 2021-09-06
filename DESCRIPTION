@@ -9,7 +9,7 @@ Description: A tool for dealwith rename gene symbols
     2. rename gene symbols for a matrix object
     3. rename gene symbols for a CellDataSet object (in monocle package)
     4. rename gene symbols for a tree (newick format). Edit symbol including ":".
-License: What license is it under?
+License: GPL
 Encoding: UTF-8
 LazyData: true
 Depends:

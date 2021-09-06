@@ -7,7 +7,7 @@
 #' @export
 #'
 #' @examples
-#' ref_data <- LoadReference(reference.gene.xls)
+#' #ref_data <- LoadReference(reference.gene.xls)
 LoadReference <- function(reference.gene.xls){
   ref <- read.csv(reference.gene.xls, sep="\t", header=1, check.names=F)
   newnames <- gsub("_","-", ref$gene_symbol)
