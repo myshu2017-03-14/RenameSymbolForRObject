@@ -21,7 +21,7 @@ RenameReference <- function(ref_data, gene_list){
     }else if(gene %in% ref_data$gene_symbol){
       out_gene_list <- append(out_gene_list, gene)
     }else{
-      print(paste0(gene, "not found in ",ref_data,", Please check!"))
+      print(paste0(gene, "not found in ref_data, Please check!"))
     }
   }
   return(out_gene_list)
