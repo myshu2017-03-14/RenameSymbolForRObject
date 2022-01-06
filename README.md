@@ -39,6 +39,6 @@ wget -c https://codeload.github.com/myshu2017-03-14/RenameSymbolForRObject/zip/r
 unzip RenameSymbolForRObject.zip
 # 安装
 R
-install.packages("RenameSymbolForRObject/", repos = NULL, type = "source")
+install.packages("RenameSymbolForRObject-master/", repos = NULL, type = "source")
 library(RenameRObject) # 导入没问题就是安装成功了\
 ```
